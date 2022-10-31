@@ -27,11 +27,6 @@ public class PutGetClobs {
       Connection c = DriverManager.getConnection("jdbc:db2:*local");    
       Statement s = c.createStatement();
             Connection c2 = DriverManager.getConnection("jdbc:db2:*local");    
-      Statement s2 = c2.createStatement();
-            Connection c2 = DriverManager.getConnection("jdbc:db2:*local");    
-      Statement s3= c2.createStatement();
-            Connection c4 = DriverManager.getConnection("jdbc:db2:*local");    
-      Statement s4 = c4.createStatement();
       
       // Clean up any previous run of this application.
       try {
